@@ -10,10 +10,10 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 class ShellType {
-    static final String ANDROID_SHELL =  whichCMD("sh") + " -c bash";
-    static final String ANDROID_SU_SHELL = whichCMD("su") + " -c bash";
-    static final String KALI_SHELL = whichCMD("su") + " -mm -c bootkali";
-    static final String KALI_LOGIN_SHELL = whichCMD("su") + " -mm -c bootkali_login";
+    static final String ANDROID_SHELL =  whichCMD("sh") + " -";
+    static final String ANDROID_SU_SHELL = whichCMD("sh") + " -c su";
+    static final String KALI_SHELL = whichCMD("sh") + " -mm -c 'su -mm -c bootkali'";
+    static final String KALI_LOGIN_SHELL = whichCMD("su") + " -mm -c 'su -mm -c bootkali_login'";
 
     private static String whichCMD(String theCmd){
         String output = null;
