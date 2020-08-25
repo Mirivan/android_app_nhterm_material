@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "C:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dC:/Users/User/Desktop/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dC:/Users/User/Desktop/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jackpal-termexec2-release-arm64-v8a": {
+      "buildCommand": "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dC:/Users/User/Desktop/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/User/Desktop/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libjackpal-termexec2.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "jackpal-termexec2",
+      "files": [
+        {
+          "src": "C:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\process.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/User/AppData/Local/Android/Sdk/ndk/21.0.6113669/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -IC:/Users/User/Desktop/kali-nethunter-term-master/libtermexec/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "C:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libjackpal-termexec2.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cppCompilerExecutable": "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "C:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dC:/Users/User/Desktop/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dC:/Users/User/Desktop/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jackpal-termexec2-release-x86": {
+      "artifactName": "jackpal-termexec2",
+      "buildCommand": "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dC:/Users/User/Desktop/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/User/Desktop/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj/local/x86/libjackpal-termexec2.so",
+      "abi": "x86",
+      "output": "C:\\Users\\User\\Desktop\\kali-nethunter-term-master\\libtermexec\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libjackpal-termexec2.so",
+      "runtimeFiles": []
+    }
+  }
+}

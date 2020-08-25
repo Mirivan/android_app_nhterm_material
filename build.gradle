@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.0'
+    }
+}
+
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+
+ext {
+    compileSdkVersion=29
+    minSdkVersion=17
+    targetSdkVersion=29
+    //version=YYYYMMVVRR (Either "VV" for stable version OR "RR" for pre-release candidate (e.g. 0001 for rc1)
+    versionCode=2020040001
+    versionName="2020.4-RC1"
+}
+
