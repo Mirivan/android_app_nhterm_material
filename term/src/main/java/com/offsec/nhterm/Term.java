@@ -44,6 +44,7 @@ import android.os.PowerManager;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -436,6 +437,10 @@ public class Term extends Activity implements UpdateCallback, SharedPreferences.
             wifiLockMode = WIFI_MODE_FULL_HIGH_PERF;
         }
         mWifiLock = wm.createWifiLock(wifiLockMode, TermDebug.LOG_TAG);
+
+        if (AndroidCompat.SDK >= 21) {
+            getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.primary_dark));
+        }
 
         ActionBarCompat actionBar = ActivityCompat.getActionBar(this);
         if (actionBar != null) {

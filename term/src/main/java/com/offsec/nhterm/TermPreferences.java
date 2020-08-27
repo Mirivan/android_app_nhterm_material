@@ -21,10 +21,14 @@ import com.offsec.nhterm.R;
 import com.offsec.nhterm.compat.ActionBarCompat;
 import com.offsec.nhterm.compat.ActivityCompat;
 import com.offsec.nhterm.compat.AndroidCompat;
+
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
+import android.support.annotation.RequiresApi;
+import android.support.v4.content.ContextCompat;
 import android.view.MenuItem;
 
 public class TermPreferences extends PreferenceActivity {
@@ -46,6 +50,11 @@ public class TermPreferences extends PreferenceActivity {
              if ((actionBarPref != null) && (screenCategory != null)) {
                  screenCategory.removePreference(actionBarPref);
              }
+        }
+
+        // Material Feature: set color on
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.primary_dark));
         }
 
         // Display up indicator on action bar home button
